@@ -1,0 +1,442 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+  
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#header{
+    width: 100%;
+    height: 68px;
+    /* background-color: aqua; */
+    box-shadow: 0px 0.25px 2px 0px rgb(167, 166, 166);
+    position: fixed;
+    background-color: white;
+}
+
+.header-container{
+width: 1100px;
+height: 100%;
+display: flex;
+margin: auto;
+justify-content: space-between;
+align-items: center;
+
+}
+
+#header .logo {
+    width: 129px;
+    height: 17px;
+}
+#header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#header .desktop-nav{
+    display: flex;
+    gap: 0px 40px;
+    color: black;
+    
+}
+
+#header a{
+    color:  #666;
+    
+}
+#header a:hover{
+    color: #387ed1;
+}
+
+#header .hamburger{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-weight: 400;
+   
+}
+
+#header span{
+    width: 100%;
+    height: 2px;
+    background-color: #424242;  
+}
+
+#hero-section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;    
+}
+
+ #hero-section .hero-section-container{
+    width: 1100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ #hero-section .image-container{
+    width: 743px;
+    height: 313px;
+    margin-top: 130px;
+}
+
+#hero-section img{
+width: 100%;
+height: 100%;
+}
+
+#hero-section h1{
+    font-size: 2.75rem;    
+    font-weight: 520;
+    margin: 4rem 0 1.15rem;
+}
+#hero-section p{
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    margin-top: 30px;
+}
+
+#hero-section .signup{
+    width: 174px;
+    height: 47px;
+    background-color: #387ed1;
+    color: white;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.2em;  
+    margin-top: 30px; 
+    padding: 15px 0px; 
+    
+}
+
+#hero-section .signup:hover{
+    background-color: black;
+}
+
+#hero-section-4 .signup-1:hover{
+    background-color: black;
+}
+
+
+.hero-section-2{
+   display: flex;
+   margin-top: 200px;
+   margin-bottom: 130px;
+   
+}
+
+.hero-section-2 .left-box{
+   width: 500px;
+   height: 300px;
+   padding: 0px 30px ;
+   margin-left: 90px;
+}
+
+.hero-section-2 .left-box image{
+    width: 100%;
+    height: 100%;
+   
+ }
+
+.hero-section-2 .right-box{
+    
+    width: 500px;
+    height: 300px;
+    margin-left: 130px;
+}
+
+.right-box .topic{
+display: flex;
+gap: 45px;
+margin: 35px 0px 0px 20px ;
+
+}
+
+.topic ul li{
+    font-size: 17px;
+    padding-top: 30px;
+    font-weight: 400;
+    
+
+}
+
+.right-box h1{
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+ .topic .press-logos{
+    width: 500px;
+    height: 10px;
+
+
+ }
+
+.press-logos img{
+    margin-top:30px ;
+   width: 100%;
+   height: 100%;
+}
+
+.hero-section-3 .left-box-1{
+    margin-left: 90px;
+    width: 500px;
+    height: auto;
+}
+
+.hero-section-3 {
+    
+        display: flex;
+        margin-top: 200px;
+        margin-left: 60px;
+        color: black;
+}
+
+.hero-section-3 h1{
+    font-size: 45px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    color: black;
+   
+}
+
+.left-box-1 h3 {
+    padding-top: 30px;
+   
+}
+
+.left-box-1 p{
+    padding-top: 20px;
+    margin-bottom: 13px;
+    color: black; 
+}
+
+.left-box-1 a {
+    color: #387ECD;;
+}
+
+.right-box-1 {
+    width: 600px;
+    height: 600px;
+    margin-left: 20px;
+}
+
+
+.right-box-1 a {
+   color:  #387ECD;
+}
+
+.right-box-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-content-center  a {
+    display: flex;
+    color: #387ECD;
+   margin-right: 50px;
+}
+
+.right-box-2{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+ 
+.right-box-2 h1 {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.right-box-2 fieldset{
+    width: 250px;
+    height: 200px;
+}
+
+.right-box-2 p {
+    text-align: center;
+ 
+
+}
+
+.right-box-3 {
+    width: 500px;
+
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.right-box-3 p{
+    margin: 5px 0px;
+}
+
+.right-box-3 h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.right-box-3  .content a {
+    display: flex;
+    padding: 5px 0px;
+    color: #387ed1; ;
+}
+
+#hero-section-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+
+}
+
+#hero-section-4 .signup-1{
+    width: 174px;
+    height: 47px;
+    background-color: #387ed1;
+    color: white;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.2em;  
+    margin-top: 50px; 
+    padding: 15px 0px; 
+}
+#hero-section-4 .open-account {
+    width: 1100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.open-account h1{
+    margin: 30px 0px;
+    font-size: 30px;
+}
+
+.hero-section-5 {
+    background-color:#fbfbfb;
+    box-shadow: 1px 0px 0.5px .25px black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+  
+   
+}
+
+.content-1{
+    margin:auto;
+    width: 1100px;
+    height: 334px;
+    display: flex;
+    margin: 25px 130px;
+}
+
+.footer-content-1 , .footer-content-4 , .footer-content-2 , .footer-content-3 {
+    width: 242px;
+    height: 334px;
+    margin-right: 35px;
+   
+  
+}
+
+.footer-content-1 .logo{
+    width: 152px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+
+.footer-content-1 img{
+   width: 100%;
+   height: 100%;
+}
+
+.content-1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content-1 h3{
+    margin-bottom: 20px;
+}
+
+.footer-header {
+    width: 1100px;
+    height: auto;
+    margin-top: 40px;
+    margin: 25px 130px;
+}
+
+.footer-header .footer-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-header .footer-1 p{
+    font-size:11px;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.footer {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.social-fonts {
+    margin-top: 20px;
+    font-size: 25px;
+    word-spacing: 10px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
