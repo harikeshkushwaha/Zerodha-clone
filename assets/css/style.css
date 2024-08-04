@@ -424,6 +424,19 @@ margin: 35px 0px 0px 20px ;
     word-spacing: 10px;
    
 }
+@media(max-width:576px){
+        #header{
+            width: 80%; 
+        }
+        #header>a{
+            font-size: large;
+        }
+        section{
+            width: 80%;
+            
+        }
+         
+      }
 
 
 
